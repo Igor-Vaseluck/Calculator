@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="сalc.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h1>Калькулятор</h1></div>
+        <div class="inputs">
+            <input id="value1" class="v1" placeholder="Введите число 1" type="number" value="12">
+            <br>
+            <input id="value2" placeholder="Введите число 2" type="number">
+        </div>
+        <div class="signs">  
+            <div class="singsRow1">             
+                <button id="plus">+</button>
+                <button id="minus">-</button>
+                <button id="multiply">*</button>
+            </div>
+            <div class="singsRow2">               
+                <button id="del">/</button>
+                <button id="pow">**</button>
+                <button id="sqrt">sqrt</button>
+            </div>
+        </div>
+        <div class="calculate">
+            <button id="calc">=</button>
+        </div>
+        <div class="output">
+            <output id="answer">0</output>
+        </div>
+    </div>
+</body>
+</html>

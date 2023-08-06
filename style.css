@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    justify-content:center;
+    margin: auto;
+    width: 40%;
+    background-color: #9daaac;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.container{
+    width: 100%;
+}
+.inputs{
+    width: 100%;
+    font-size: 15px;
+}
+#value1, #value2{
+    width: 98%;
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    height: 20px;
+    font-size: 15px;
+}
+.signs{
+    width: 100%;
+    
+}
+.singsRow1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.singsRow2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#plus{
+    width: 50%;
+    vertical-align: middle;
+    font-size: 15px;
+}
+#minus{
+    width: 50%;
+    vertical-align: middle;
+    font-size: 15px;
+}
+#multiply{
+    width: 50%;
+    vertical-align: middle;
+    font-size: 15px;
+}
+#del{
+    width: 50%;
+    vertical-align: middle;
+    font-size: 15px;
+}
+#pow{
+    width: 50%;
+    vertical-align: middle;
+    font-size: 15px;
+}
+#sqrt{
+    width: 50%;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.calculate{
+    width: 100%;
+}
+#calc{
+    width: 100%;
+    font-size: 15px;
+}
+.output{
+    width: 100%;
+    margin-top: 10px;
+}
+#answer{
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    font-size: 15px;
+}
